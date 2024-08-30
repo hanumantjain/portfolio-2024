@@ -1,11 +1,14 @@
 import React from 'react'
 import { IoEyeSharp } from "react-icons/io5"
+import resume from '../assets/Hanumant_Resume.pdf'
 
 const About = () => {
   return (
-    <div className='flex flex-col'>
-        <div className=' text-center py-3 text-5xl'>About <span className='text-yellow-500'>Me</span></div>
-        <hr className='py-20 mx-20'/>
+    <div id='about' className='flex flex-col gap-20' >
+        <div className='flex flex-col gap-4'>
+            <div className=' text-center text-5xl'>About <span className='text-yellow-500'>Me</span></div>
+            <hr className='mx-20'/>
+        </div>
         <div>
             <div className='flex justify-between px-20 text-xl'>
                 <div className='flex flex-col gap-4 '>
@@ -23,12 +26,11 @@ const About = () => {
                 </div> 
             </div>
         </div>
-        <div className=' '>
-            <button className='flex items-center justify-center gap-4 rounded-2xl p-1 px-5 text-lg bg-[#1a1a1a] hover:bg-yellow-500'>
+        <div className='flex justify-center'>
+            <a href={resume} target='_blank' rel="noreferrer"><button className='flex items-center justify-center gap-4 rounded-2xl p-2 px-5 text-lg bg-[#1a1a1a] hover:bg-yellow-500'>
                 View Resume<span><IoEyeSharp /></span>
-            </button>
+            </button></a>
         </div>
-        
     </div>
   )
 }
