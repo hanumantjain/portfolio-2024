@@ -4,13 +4,13 @@ import resume from '../assets/Hanumant_Resume.pdf'
 
 const About = () => {
   return (
-    <div id='about' className='flex flex-col gap-20' >
+    <div id='about' className='flex flex-col gap-20 ' >
         <div className='flex flex-col gap-4'>
             <div className=' text-center text-5xl'>About <span className='text-yellow-500'>Me</span></div>
-            <hr className='mx-20'/>
+            <hr className='mx-10 lg:mx-20'/>
         </div>
         <div>
-            <div className='flex justify-between px-20 text-xl'>
+            <div className='flex flex-col lg:flex-row justify-between px-20 text-xl 2xl:text-2xl gap-6'>
                 <div className='flex flex-col gap-4 '>
                     <div>Name: <span className=' text-yellow-500'>Hanumant Jain</span></div>
                     <div>Postion: <span className=' text-yellow-500'>Student</span></div>
@@ -27,7 +27,7 @@ const About = () => {
             </div>
         </div>
         <div className='flex justify-center'>
-            <a href={resume} target='_blank' rel="noreferrer"><button className='flex items-center justify-center gap-4 rounded-2xl p-2 px-5 text-lg bg-[#1a1a1a] hover:bg-yellow-500'>
+            <a href={resume} target='_blank' rel="noreferrer"><button className='flex items-center justify-center gap-4 rounded-2xl p-2 px-5 text-lg bg-[#1a1a1a] hover:bg-yellow-500 2xl:text-2xl'>
                 View Resume<span><IoEyeSharp /></span>
             </button></a>
         </div>

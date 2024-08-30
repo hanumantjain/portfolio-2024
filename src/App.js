@@ -9,10 +9,10 @@ import Contact from "./components/Contact"
 function App() {
   return (
     <div className="flex ">
-      <div className="w-1/4 bg-[#111] h-screen content-center sticky top-0">
+      <div className="hidden lg:block w-1/4 bg-[#111] h-screen content-center sticky top-0">
         <Navbar />
       </div>
-      <div className="w-3/4 bg-black content-center ">
+      <div className="w-full lg:w-3/4 bg-black content-center">
         <Home />
         <About />
         <Skills />
