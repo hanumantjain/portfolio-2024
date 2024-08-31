@@ -1,13 +1,15 @@
 import React from 'react'
 import { FaUser } from "react-icons/fa"
 import { Link } from 'react-scroll'
+import Particles from '../utils/Particle'
 
 const Home = () => {
   return (
     <div id='home' className='h-screen px-20 content-center text-lg relative'>
+      <Particles className=''/>
       <h3 className='text-2xl py-3 xl:py-4 2xl:text-4xl'>HI THERE !</h3>
       <h1 className='text-4xl pb-3 xl:pb-4 2xl:text-6xl'>
-          I'm <span className='text-yellow-500'>Hanumant Jain</span>
+          I'm <span className='text-red-600'>Hanumant Jain</span>
       </h1>
       <p className='pb-4 lg:pb-6 2xl:text-2xl'>
           Highly motivated and result-oriented individual with a passion for implementing
@@ -17,7 +19,7 @@ const Home = () => {
           career in web development.
       </p>
       <Link to="about" spy={true} smooth={true} offset={-40} duration={500}>
-          <button className='flex items-center justify-center gap-4 rounded-2xl p-1 px-5 text-lg bg-[#1a1a1a] hover:bg-yellow-500 2xl:text-2xl'>
+          <button className='flex items-center justify-center gap-4 rounded-2xl p-1 px-5 text-lg bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl'>
               Wanna know more about me <span><FaUser /></span>
           </button>
       </Link>

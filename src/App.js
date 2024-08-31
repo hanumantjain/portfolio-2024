@@ -15,8 +15,8 @@ function App() {
       <div className="w-full lg:w-3/4 bg-black content-center">
         <Home />
         <About />
-        <Skills />
         <Education />
+        <Skills />
         <Project />
         <Contact />
       </div>
