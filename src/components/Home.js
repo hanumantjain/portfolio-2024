@@ -24,8 +24,8 @@ const Home = () => {
           </button>
       </Link>
     
-      <Link className='fixed lg:right-12 lg:bottom-12 right-8 bottom-10 cursor-pointer' to="home" spy={true} smooth={true} offset={-40} duration={500}>
-      <img width="64" height="64" src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/external-rocket-playground-icongeek26-flat-icongeek26.png" alt="external-rocket-playground-icongeek26-flat-icongeek26"/>
+      <Link className='fixed lg:right-12 lg:bottom-12 right-8 bottom-10 cursor-pointer animate-bounce' to="home" spy={true} smooth={true} offset={-40} duration={500}>
+        <img width="64" height="64" src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/external-rocket-playground-icongeek26-flat-icongeek26.png" alt="external-rocket-playground-icongeek26-flat-icongeek26"/>
       </Link>
 </div>
   )
