@@ -24,7 +24,7 @@ const Home = () => {
             career in web development.
         </p>
         <Link to="about" spy={true} smooth={true} offset={-40} duration={500}>
-            <button className='flex items-center justify-center gap-4 rounded-2xl p-1 px-5 text-lg bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl'>
+            <button className='flex items-center justify-center gap-4 rounded-2xl p-1 px-5 text-lg bg-[#282828] hover:bg-red-700 2xl:text-2xl'>
                 Wanna know more about me <span><FaUser /></span>
             </button>
         </Link>

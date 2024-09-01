@@ -57,7 +57,7 @@ const Contact = () => {
                                         onChange={e => setName(e.target.value)}
                                         value={name}
                                         name='user_name'
-                                        className=' w-full h-10 bg-[#111] rounded-lg py-1 px-3 focus:text-red-700' />
+                                        className=' w-full h-10 bg-[#282828] rounded-lg py-1 px-3 focus:text-red-700' />
                             </div>
                             <div>
                                 <input type="email"
@@ -67,7 +67,7 @@ const Contact = () => {
                                         value={email}
                                         name='user_email'
                                         required
-                                        className=' w-full h-10 bg-[#111] rounded-lg  py-1 px-3 focus:text-red-700' />
+                                        className=' w-full h-10 bg-[#282828] rounded-lg  py-1 px-3 focus:text-red-700' />
                             </div>
                             <div>
                                 <textarea name="message" 
@@ -76,11 +76,11 @@ const Contact = () => {
                                           required
                                           onChange={e => setMessage(e.target.value)}
                                           value={message}
-                                          className=' w-full h-32 bg-[#111] rounded-lg py-1 px-3 focus:text-red-700'></textarea>
+                                          className=' w-full h-32 bg-[#282828] rounded-lg py-1 px-3 focus:text-red-700'></textarea>
                             </div>
                         </div>
                         <div className="flex justify-center p-2 w-full pt-5 ">
-                            <button className='flex items-center justify-center gap-4 rounded-3xl p-2 px-8 bg-[#1a1a1a] hover:bg-red-700'>
+                            <button className='flex items-center justify-center gap-4 rounded-3xl p-2 px-8 bg-[#282828] hover:bg-red-700'>
                               Send <span><IoIosSend /></span>
                             </button>
                         </div>
