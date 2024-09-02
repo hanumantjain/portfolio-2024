@@ -1,9 +1,9 @@
-import img from '../assets/img1.png';
-import img1 from '../assets/thefundershub.png'
-import img2 from '../assets/medical.jpeg'
-import img3 from '../assets/decntrix.png'
-import img4 from '../assets/Web3Verse.png'
-import img5 from '../assets/wallcraftarchitect.png'
+import img from '../assets/hanumant_jain_img1.png';
+import img1 from '../assets/hanumant_jain_thefundershub.png'
+import img2 from '../assets/hanumant_jain_medical.jpeg'
+import img3 from '../assets/hanumant_jain_decntrix.png'
+import img4 from '../assets/hanumant_jain_Web3Verse.png'
+import img5 from '../assets/hanumant_jain_wallcraftarchitect.png'
 
 const projectData = [
     
