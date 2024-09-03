@@ -4,7 +4,12 @@ import { IoIosSend } from "react-icons/io"
 import { IoIosMail } from "react-icons/io"
 import { IoIosPin } from "react-icons/io"
 
+
 const Contact = () => {
+    const serviceKey = process.env.REACT_APP_EMAIL_SERVICE_KEY
+    const templateKey = process.env.REACT_APP_EMAIL_TEMPLATE_KEY
+    const apiKey = process.env.REACT_APP_EMAIL_PUBLIC_KEY
+
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
@@ -27,7 +32,7 @@ const Contact = () => {
         setEmail("")
         setMessage("")
 
-        emailjs.sendForm('service_1zwtb1o', 'template_2trnvf8', form.current, 'w8ZY_7yR9WdT_-Zu5')
+        emailjs.sendForm(serviceKey, templateKey, form.current, apiKey)
             .then((result) => {
                 alert("Message Sent!")
             }, (error) => {
@@ -36,7 +41,7 @@ const Contact = () => {
     }
 
     return (
-        <div id='contact' className='mt-40 text-xl min-h-screen 2xl:text-2xl'>
+        <div id='hanumant jain contact' className='mt-40 text-xl min-h-screen 2xl:text-2xl'>
             <div className='flex flex-col gap-4'>
                 <div className='text-center text-5xl'>Contact <span className='text-red-700'>Me</span></div>
                 <hr className='mx-10 lg:mx-20'/>

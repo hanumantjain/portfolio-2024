@@ -6,7 +6,7 @@ import HamBurgerMenu from './HamBurgerMenu'
 
 const Home = () => {
   return (
-    <div id='home' className='h-screen px-20 content-center text-lg relative'>
+    <div id='hanumant jain home' className='h-screen px-20 content-center text-lg relative'>
       <Particles className=''/>
       <div className='absolute top-10 right-20'>
         <HamBurgerMenu  />
@@ -29,7 +29,7 @@ const Home = () => {
             </button>
         </Link>
 
-        <Link className='fixed z-50 lg:right-12 lg:bottom-12 right-8 bottom-10 cursor-pointer animate-bounce' to="home" spy={true} smooth={true} offset={-40} duration={500}>
+        <Link className='fixed z-50 lg:right-12 lg:bottom-12 right-8 bottom-10 cursor-pointer animate-bounce' to="hanumant jain home" spy={true} smooth={true} offset={-40} duration={500}>
           <img width="64" height="64" src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/external-rocket-playground-icongeek26-flat-icongeek26.png" alt="external-rocket-playground-icongeek26-flat-icongeek26"/>
         </Link>
       </div>

@@ -1,10 +1,10 @@
 import React from 'react'
 import { IoEyeSharp } from "react-icons/io5"
-import resume from '../assets/Hanumant_Resume.pdf'
+import resume from '../assets/hanumant jain Resume.pdf'
 
 const About = () => {
   return (
-    <div id='about' className='flex flex-col gap-20 ' >
+    <div id='hanumant jain about' className='flex flex-col gap-20 ' >
         <div className='flex flex-col gap-4'>
             <div className=' text-center text-5xl'>About <span className='text-red-700'>Me</span></div>
             <hr className='mx-10 lg:mx-20'/>

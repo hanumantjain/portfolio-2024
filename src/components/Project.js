@@ -3,7 +3,7 @@ import projectData from '../utils/ProjectData'
 
 const Project = () => {
   return (
-    <div id='projects' className='mt-40'>
+    <div id='hanumant jain projects' className='mt-40'>
       <div className='flex flex-col gap-4 pb-20'>
         <div className='text-center text-5xl'>
           My <span className='text-red-500'>Projects</span>

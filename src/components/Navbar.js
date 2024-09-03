@@ -11,12 +11,12 @@ const Navbar = () => {
             <h1 className='text-2xl'>Hanumant Jain</h1>
         </div>
         <div className='flex flex-col gap-4 px-5 '>
-            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="home" spy={true} smooth={true} offset={-40} duration={500}>Home</Link>
-            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="about" spy={true} smooth={true} offset={-40} duration={500}>About</Link>
-            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="education" spy={true} smooth={true} offset={-40} duration={500}>Education</Link>
-            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="skills" spy={true} smooth={true} offset={-40} duration={500}>Skills</Link>
-            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="projects" spy={true} smooth={true} offset={-40} duration={500}>Projects</Link>
-            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="contact" spy={true} smooth={true} offset={-40} duration={500}>Contact</Link>
+            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="hanumant jain home" spy={true} smooth={true} offset={-40} duration={500}>Home</Link>
+            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="hanumant jain about" spy={true} smooth={true} offset={-40} duration={500}>About</Link>
+            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="hanumant jain education" spy={true} smooth={true} offset={-40} duration={500}>Education</Link>
+            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="hanumant jain skills" spy={true} smooth={true} offset={-40} duration={500}>Skills</Link>
+            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="hanumant jain projects" spy={true} smooth={true} offset={-40} duration={500}>Projects</Link>
+            <Link className='cursor-pointer rounded-2xl p-1 text-xl bg-[#282828] hover:bg-red-700 2xl:text-2xl' to="hanumant jain contact" spy={true} smooth={true} offset={-40} duration={500}>Contact</Link>
         </div>
         <div>
             <div>Get In Touch</div>
