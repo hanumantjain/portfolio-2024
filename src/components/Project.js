@@ -26,7 +26,7 @@ const Project = () => {
               <div className='absolute border border-gray-500 w-1.5 h-1.5 right-2.5 top-1 2xl:h-3 2xl:w-3'></div>
             </div>
             <div className='relative cursor-pointer'>
-              <img src={project.image} alt="pic" className='w-full h-auto object-cover hover:blur-md transition duration-300' />
+              <img src={project.image} alt={project.alt} className='w-full h-auto object-cover hover:blur-md transition duration-300 opacity-70' />
               <div className='absolute top-0 right-0 w-full h-full flex flex-col justify-evenly bg-black p-4 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-300'>
                 <div className='flex flex-col items-center gap-2 text-xs lg:text-lg'>
                   <div className='text-red-500 text-lg font-bold'>{project.name}</div>

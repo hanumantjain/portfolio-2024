@@ -23,7 +23,7 @@ const Home = () => {
             expertise to contribute to the success of the organization and further advance my
             career in web development.
         </p>
-        <Link to="about" spy={true} smooth={true} offset={-40} duration={500}>
+        <Link to="hanumant jain about" spy={true} smooth={true} offset={-40} duration={500}>
             <button className='flex items-center justify-center gap-4 rounded-2xl p-1 px-5 text-lg bg-[#282828] hover:bg-red-700 2xl:text-2xl'>
                 Wanna know more about me <span><FaUser /></span>
             </button>
