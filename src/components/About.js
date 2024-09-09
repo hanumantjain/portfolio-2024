@@ -20,7 +20,7 @@ const About = () => {
                 <div className='flex flex-col gap-4'>
                       <div> Website: <span className='text-red-700'> hanumantjain.com</span></div>
                       {/* <h4 className='m-2 head'>{">"} Phone:<span className='font1'> +1 {"("}571{")"} 652 0959</span></h4> */}
-                      <div>Location:<span className='text-red-700'> Washinton, DC</span></div>
+                      <div>Location:<span className='text-red-700'> Washington, DC</span></div>
                       {/* <h4 className=' m-2 head'>{">"} Degree:<span className='font1'> MS in CS</span> </h4> */}
                       <div> Email:<span className='text-red-700'> hanumantjain939@gmail.com</span></div>
                 </div> 
