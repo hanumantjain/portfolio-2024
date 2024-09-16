@@ -52,7 +52,7 @@ const Contact = () => {
                     <div className='flex gap-2 items-center'><IoIosMail /><span className=' text-red-700'>hanumantjain939@gmail.com</span></div>
                     <div className='flex gap-2 items-center '><IoIosPin /><span className=' text-red-700'> Washington, DC</span></div>
                 </div>
-                <div className='w-full lg:w-1/2' data-aos="fade-right">
+                <div data-aos="fade-right" className='w-full lg:w-1/2' >
                     <form ref={form} onSubmit={sendEmail} >
                         <div className='flex flex-col gap-5'>
                             <div className=''>

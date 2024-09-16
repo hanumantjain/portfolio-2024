@@ -11,11 +11,11 @@ const Project = () => {
         <hr className='mx-10 lg:mx-20'/>
       </div>
       <div className='mx-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 gap-20'>
-        {projectData.slice().reverse().map((project) => (
+        {projectData.slice().reverse().map((project, index) => (
           <div
             key={project.id}
             className='flex flex-col border-2 border-white h-auto rounded-xl relative overflow-hidden '
-            data-aos="flip-down"
+            data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
           >
             <div className='bg-white h-4 rounded-t-md 2xl:h-6'>
               <div className='flex gap-1 absolute left-2 top-0.5 2xl:top-1.5'>
