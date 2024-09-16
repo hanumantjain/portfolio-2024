@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <div id='hanumant jain projects' className='mt-40'>
       <div className='flex flex-col gap-4 pb-20'>
-        <div className='text-center text-5xl'>
+        <div className='text-center text-5xl' data-aos="zoom-in">
           My <span className='text-red-500'>Projects</span>
         </div>
         <hr className='mx-10 lg:mx-20'/>
@@ -15,6 +15,7 @@ const Project = () => {
           <div
             key={project.id}
             className='flex flex-col border-2 border-white h-auto rounded-xl relative overflow-hidden '
+            data-aos="flip-down"
           >
             <div className='bg-white h-4 rounded-t-md 2xl:h-6'>
               <div className='flex gap-1 absolute left-2 top-0.5 2xl:top-1.5'>

@@ -43,16 +43,16 @@ const Contact = () => {
     return (
         <div id='hanumant jain contact' className='mt-40 text-xl min-h-screen 2xl:text-2xl'>
             <div className='flex flex-col gap-4'>
-                <div className='text-center text-5xl'>Contact <span className='text-red-700'>Me</span></div>
+                <div className='text-center text-5xl' data-aos="zoom-in">Contact <span className='text-red-700'>Me</span></div>
                 <hr className='mx-10 lg:mx-20'/>
             </div>
             <div className='flex flex-col gap-20 lg:flex-row lg:justify-between pt-20 mx-10 lg:mx-20'>
-                <div className='flex flex-col gap-3'>
+                <div className='flex flex-col gap-3' data-aos="fade-left">
                     <div className='text-3xl '>Contact Information</div>
                     <div className='flex gap-2 items-center'><IoIosMail /><span className=' text-red-700'>hanumantjain939@gmail.com</span></div>
                     <div className='flex gap-2 items-center '><IoIosPin /><span className=' text-red-700'> Washington, DC</span></div>
                 </div>
-                <div className='w-full lg:w-1/2'>
+                <div className='w-full lg:w-1/2' data-aos="fade-right">
                     <form ref={form} onSubmit={sendEmail} >
                         <div className='flex flex-col gap-5'>
                             <div className=''>

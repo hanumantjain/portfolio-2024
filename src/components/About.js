@@ -6,18 +6,18 @@ const About = () => {
   return (
     <div id='hanumant jain about' className='flex flex-col gap-20 ' >
         <div className='flex flex-col gap-4'>
-            <div className=' text-center text-5xl'>About <span className='text-red-700'>Me</span></div>
+            <div className=' text-center text-5xl' data-aos="zoom-in">About <span className='text-red-700'>Me</span></div>
             <hr className='mx-10 lg:mx-20'/>
         </div>
         <div>
             <div className='flex flex-col lg:flex-row justify-between px-20 text-xl 2xl:text-2xl gap-6'>
-                <div className='flex flex-col gap-4 '>
+                <div data-aos='fade-right' className='flex flex-col gap-4 '>
                     <div>Name: <span className=' text-red-700'>Hanumant Jain</span></div>
                     <div>Postion: <span className=' text-red-700'>Student</span></div>
                     <div>Degree: <span className='text-red-700'>MS in CS</span></div>
 
                 </div>
-                <div className='flex flex-col gap-4'>
+                <div data-aos='fade-left' className='flex flex-col gap-4'>
                       <div> Website: <span className='text-red-700'> hanumantjain.com</span></div>
                       {/* <h4 className='m-2 head'>{">"} Phone:<span className='font1'> +1 {"("}571{")"} 652 0959</span></h4> */}
                       <div>Location:<span className='text-red-700'> Washington, DC</span></div>
