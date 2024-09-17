@@ -26,7 +26,7 @@ const About = () => {
                 </div> 
             </div>
         </div>
-        <div className='flex justify-center'>
+        <div className='flex justify-center' data-aos='fade-right'>
             <a href={resume} target='_blank' rel="noreferrer"><button className='flex items-center justify-center gap-4 rounded-2xl p-2 px-5 text-lg bg-[#282828] hover:bg-red-700 2xl:text-2xl'>
                 View Resume<span><IoEyeSharp /></span>
             </button></a>

@@ -17,23 +17,23 @@ const HamBurgerMenu = () => {
 
     return (
         <div>
-            <div className="lg:hidden flex items-center">
+            <div className="lg:hidden flex items-center fixed">
                 <button onClick={toggleMenu} className="text-2xl" aria-label="Open menu">
                     <span><RxHamburgerMenu /></span>
                 </button>
             </div>
             {isSmallScreen && (
-                <div className="fixed inset-0 bg-black bg-opacity-75 flex flex-col items-center justify-center lg:hidden h-screen">
+                <div className="fixed inset-0 bg-black bg-opacity-75 flex flex-col items-center justify-center lg:hidden h-screen z-10">
                     <button onClick={toggleMenu} className="absolute top-10 right-20 text-white text-2xl" aria-label="Close menu">
                         <span><IoClose /></span>
                     </button>
-                    <div className="flex flex-col w-full items-center text-center gap-6 text-lg text-white">
-                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="home" spy={true} smooth={true} offset={-40} duration={500}>Home</Link>
-                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="about" spy={true} smooth={true} offset={-40} duration={500}>About</Link>
-                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="education" spy={true} smooth={true} offset={-40} duration={500}>Education</Link>
-                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="skills" spy={true} smooth={true} offset={-40} duration={500}>Skills</Link>
-                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="projects" spy={true} smooth={true} offset={-40} duration={500}>Projects</Link>
-                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="contact" spy={true} smooth={true} offset={-40} duration={500}>Contact</Link>
+                    <div className="flex flex-col w-full items-center text-center gap-6 text-lg text-white" data-aos='fade-right' data-aos-duration='1000'>
+                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="hanumant jain home" spy={true} smooth={true} offset={-40} duration={500}>Home</Link>
+                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="hanumant jain about" spy={true} smooth={true} offset={-40} duration={500}>About</Link>
+                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="hanumant jain education" spy={true} smooth={true} offset={-40} duration={500}>Education</Link>
+                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="hanumant jain skills" spy={true} smooth={true} offset={-40} duration={500}>Skills</Link>
+                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="hanumant jain projects" spy={true} smooth={true} offset={-40} duration={500}>Projects</Link>
+                        <Link className='w-1/2 cursor-pointer rounded-2xl p-1 text-xl bg-[#1a1a1a] hover:bg-red-700 2xl:text-2xl' onClick={handleClick} to="hanumant jain contact" spy={true} smooth={true} offset={-40} duration={500}>Contact</Link>
                     </div>
                     <div className='mt-10 flex flex-col text-center gap-2'>
                         <div className='text-2xl'>Get In Touch</div>

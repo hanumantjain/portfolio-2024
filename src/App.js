@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 3000,
+      duration: 2000,
     })
   }, []) 
 
@@ -22,7 +22,7 @@ function App() {
       <div className="hidden lg:block w-1/4 bg-[#111] h-screen content-center sticky top-0">
         <Navbar />
       </div>
-      <div className="w-full lg:w-3/4 bg-black content-center lg:overflow-x-hidden">
+      <div className="w-full lg:w-3/4 bg-black content-center overflow-x-hidden">
         <Home />
         <About />
         <Education />

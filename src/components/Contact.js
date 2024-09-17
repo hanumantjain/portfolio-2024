@@ -47,12 +47,12 @@ const Contact = () => {
                 <hr className='mx-10 lg:mx-20'/>
             </div>
             <div className='flex flex-col gap-20 lg:flex-row lg:justify-between pt-20 mx-10 lg:mx-20'>
-                <div className='flex flex-col gap-3' data-aos="fade-left">
+                <div className='flex flex-col gap-3' data-aos="fade-right">
                     <div className='text-3xl '>Contact Information</div>
                     <div className='flex gap-2 items-center'><IoIosMail /><span className=' text-red-700'>hanumantjain939@gmail.com</span></div>
                     <div className='flex gap-2 items-center '><IoIosPin /><span className=' text-red-700'> Washington, DC</span></div>
                 </div>
-                <div data-aos="fade-right" className='w-full lg:w-1/2' >
+                <div data-aos="fade-left" className='w-full lg:w-1/2' >
                     <form ref={form} onSubmit={sendEmail} >
                         <div className='flex flex-col gap-5'>
                             <div className=''>
