@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoEyeSharp } from "react-icons/io5"
-import resume from '../assets/hanumant jain Resume.pdf'
+import resume from '../assets/Hanumant_Resume.pdf'
 
 const About = () => {
   return (
